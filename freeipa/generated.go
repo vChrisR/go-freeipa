@@ -83109,7 +83109,7 @@ func (out *Group) UnmarshalJSON(data []byte) error {
 		if plainOk {
 			out.MemberofindirectNetgroup = &plainV
 		} else if sliceOk {
-				out.MemberofindirectNetgroup = &sliceV[0]
+			out.MemberofindirectNetgroup = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectNetgroup: %v (%v)", raw, reflect.TypeOf(raw))
 		}
@@ -83140,7 +83140,7 @@ func (out *Group) UnmarshalJSON(data []byte) error {
 		if plainOk {
 			out.MemberofindirectRole = &plainV
 		} else if sliceOk {
-				out.MemberofindirectRole = &sliceV[0]
+			out.MemberofindirectRole = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectRole: %v (%v)", raw, reflect.TypeOf(raw))
 		}
@@ -83171,7 +83171,7 @@ func (out *Group) UnmarshalJSON(data []byte) error {
 		if plainOk {
 			out.MemberofindirectSudorule = &plainV
 		} else if sliceOk {
-				out.MemberofindirectSudorule = &sliceV[0]
+			out.MemberofindirectSudorule = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectSudorule: %v (%v)", raw, reflect.TypeOf(raw))
 		}
@@ -83201,8 +83201,8 @@ func (out *Group) UnmarshalJSON(data []byte) error {
 
 		if plainOk {
 			out.MemberofindirectHbacrule = &plainV
-		} else if sliceOk {	
-				out.MemberofindirectHbacrule = &sliceV[0]			
+		} else if sliceOk {
+			out.MemberofindirectHbacrule = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectHbacrule: %v (%v)", raw, reflect.TypeOf(raw))
 		}
@@ -86031,10 +86031,8 @@ func (out *Host) UnmarshalJSON(data []byte) error {
 
 		if plainOk {
 			out.MemberofindirectNetgroup = &plainV
-		} else if sliceOk {			
-				out.MemberofindirectNetgroup = &sliceV[0]							
-			}
-
+		} else if sliceOk {
+			out.MemberofindirectNetgroup = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectNetgroup: %v (%v)", raw, reflect.TypeOf(raw))
 		}
@@ -86064,8 +86062,8 @@ func (out *Host) UnmarshalJSON(data []byte) error {
 
 		if plainOk {
 			out.MemberofindirectHostgroup = &plainV
-		} else if sliceOk {		
-				out.MemberofindirectHostgroup = &sliceV[0]			
+		} else if sliceOk {
+			out.MemberofindirectHostgroup = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectHostgroup: %v (%v)", raw, reflect.TypeOf(raw))
 		}
@@ -86096,7 +86094,7 @@ func (out *Host) UnmarshalJSON(data []byte) error {
 		if plainOk {
 			out.MemberofindirectRole = &plainV
 		} else if sliceOk {
-				out.MemberofindirectRole = &sliceV[0]
+			out.MemberofindirectRole = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectRole: %v (%v)", raw, reflect.TypeOf(raw))
 		}
@@ -86127,7 +86125,7 @@ func (out *Host) UnmarshalJSON(data []byte) error {
 		if plainOk {
 			out.MemberofindirectSudorule = &plainV
 		} else if sliceOk {
-				out.MemberofindirectSudorule = &sliceV[0]
+			out.MemberofindirectSudorule = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectSudorule: %v (%v)", raw, reflect.TypeOf(raw))
 		}
@@ -86158,7 +86156,7 @@ func (out *Host) UnmarshalJSON(data []byte) error {
 		if plainOk {
 			out.MemberofindirectHbacrule = &plainV
 		} else if sliceOk {
-				out.MemberofindirectHbacrule = &sliceV[0]			
+			out.MemberofindirectHbacrule = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectHbacrule: %v (%v)", raw, reflect.TypeOf(raw))
 		}
@@ -87062,7 +87060,7 @@ func (out *Hostgroup) UnmarshalJSON(data []byte) error {
 		if plainOk {
 			out.MemberofindirectHostgroup = &plainV
 		} else if sliceOk {
-				out.MemberofindirectHostgroup = &sliceV[0]			
+			out.MemberofindirectHostgroup = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectHostgroup: %v (%v)", raw, reflect.TypeOf(raw))
 		}
@@ -87093,7 +87091,7 @@ func (out *Hostgroup) UnmarshalJSON(data []byte) error {
 		if plainOk {
 			out.MemberofindirectSudorule = &plainV
 		} else if sliceOk {
-				out.MemberofindirectSudorule = &sliceV[0]
+			out.MemberofindirectSudorule = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectSudorule: %v (%v)", raw, reflect.TypeOf(raw))
 		}
@@ -87123,8 +87121,8 @@ func (out *Hostgroup) UnmarshalJSON(data []byte) error {
 
 		if plainOk {
 			out.MemberofindirectHbacrule = &plainV
-		} else if sliceOk {			
-				out.MemberofindirectHbacrule = &sliceV[0]			
+		} else if sliceOk {
+			out.MemberofindirectHbacrule = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectHbacrule: %v (%v)", raw, reflect.TypeOf(raw))
 		}
@@ -99988,7 +99986,7 @@ func (out *Stageuser) UnmarshalJSON(data []byte) error {
 		if plainOk {
 			out.MemberofindirectGroup = &plainV
 		} else if sliceOk {
-				out.MemberofindirectGroup = &sliceV[0]			
+			out.MemberofindirectGroup = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectGroup: %v (%v)", raw, reflect.TypeOf(raw))
 		}
@@ -100019,7 +100017,7 @@ func (out *Stageuser) UnmarshalJSON(data []byte) error {
 		if plainOk {
 			out.MemberofindirectNetgroup = &plainV
 		} else if sliceOk {
-				out.MemberofindirectNetgroup = &sliceV[0]
+			out.MemberofindirectNetgroup = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectNetgroup: %v (%v)", raw, reflect.TypeOf(raw))
 		}
@@ -100049,8 +100047,8 @@ func (out *Stageuser) UnmarshalJSON(data []byte) error {
 
 		if plainOk {
 			out.MemberofindirectRole = &plainV
-		} else if sliceOk {			
-				out.MemberofindirectRole = &sliceV[0]
+		} else if sliceOk {
+			out.MemberofindirectRole = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectRole: %v (%v)", raw, reflect.TypeOf(raw))
 		}
@@ -100081,7 +100079,7 @@ func (out *Stageuser) UnmarshalJSON(data []byte) error {
 		if plainOk {
 			out.MemberofindirectSudorule = &plainV
 		} else if sliceOk {
-				out.MemberofindirectSudorule = &sliceV[0]			
+			out.MemberofindirectSudorule = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectSudorule: %v (%v)", raw, reflect.TypeOf(raw))
 		}
@@ -100112,7 +100110,7 @@ func (out *Stageuser) UnmarshalJSON(data []byte) error {
 		if plainOk {
 			out.MemberofindirectHbacrule = &plainV
 		} else if sliceOk {
-				out.MemberofindirectHbacrule = &sliceV[0]
+			out.MemberofindirectHbacrule = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectHbacrule: %v (%v)", raw, reflect.TypeOf(raw))
 		}
@@ -105892,7 +105890,7 @@ func (out *User) UnmarshalJSON(data []byte) error {
 		if plainOk {
 			out.MemberofindirectGroup = &plainV
 		} else if sliceOk {
-				out.MemberofindirectGroup = &sliceV[0]
+			out.MemberofindirectGroup = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectGroup: %v (%v)", raw, reflect.TypeOf(raw))
 		}
@@ -105923,7 +105921,7 @@ func (out *User) UnmarshalJSON(data []byte) error {
 		if plainOk {
 			out.MemberofindirectNetgroup = &plainV
 		} else if sliceOk {
-				out.MemberofindirectNetgroup = &sliceV[0]
+			out.MemberofindirectNetgroup = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectNetgroup: %v (%v)", raw, reflect.TypeOf(raw))
 		}
@@ -105954,7 +105952,7 @@ func (out *User) UnmarshalJSON(data []byte) error {
 		if plainOk {
 			out.MemberofindirectRole = &plainV
 		} else if sliceOk {
-				out.MemberofindirectRole = &sliceV[0]
+			out.MemberofindirectRole = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectRole: %v (%v)", raw, reflect.TypeOf(raw))
 		}
@@ -105985,7 +105983,7 @@ func (out *User) UnmarshalJSON(data []byte) error {
 		if plainOk {
 			out.MemberofindirectSudorule = &plainV
 		} else if sliceOk {
-				out.MemberofindirectSudorule = &sliceV[0]			
+			out.MemberofindirectSudorule = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectSudorule: %v (%v)", raw, reflect.TypeOf(raw))
 		}
@@ -106016,7 +106014,7 @@ func (out *User) UnmarshalJSON(data []byte) error {
 		if plainOk {
 			out.MemberofindirectHbacrule = &plainV
 		} else if sliceOk {
-				out.MemberofindirectHbacrule = &sliceV[0]
+			out.MemberofindirectHbacrule = &sliceV[0]
 		} else {
 			return fmt.Errorf("unexpected value for field MemberofindirectHbacrule: %v (%v)", raw, reflect.TypeOf(raw))
 		}
